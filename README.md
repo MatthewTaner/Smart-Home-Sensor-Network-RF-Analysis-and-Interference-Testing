@@ -25,7 +25,7 @@ The goal was to build a 2.4 GHz sensor network and use an RTL-SDR to:
 
 The most critical finding was not from range, but from **Multipath Interference**.
 
-While the sensor had 100% reliability at max range, a specific "medium-range" test through one wall created an RF "dead zone" with **13.2% packet loss**. This was due to the signal's reflections canceling each other out.
+While the sensor had 100% reliability at max range, a specific "medium-range" test through one wall created an RF dead zone with **13.2% packet loss**. This was due to the placement of the transmitter behind a refrigerator. The refrigerator had a large impact on the electromagnetic field, causing consistent interference between the transmitter and the receiver.
 
 ### Packet Loss Test Results
 | Scenario | Average % Received | Min % Received (Worst Case) |
