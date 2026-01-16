@@ -46,8 +46,8 @@ Using an SDR, the sensor's signal (on Channel 76 / 2.476 GHz) was successfully i
 
 1.  **Hardware:** Assemble the transmitter and receiver as shown.
 2.  **Code:**
-    * Upload `Transmitter_Sensor_Code.ino` to the transmitter ESP32.
-    * Upload `Receiver_Code.ino` to the receiver ESP32.
+    * Upload `TransmitterProgram.ino` to the transmitter ESP32.
+    * Upload `ReceiverProgram.ino` to the receiver ESP32.
 3.  **SDR Analysis:**
     * Connect the RTL-SDR and "Ham It Down."
     * Open SDR# and tune to **976 MHz** (2476 MHz - 1500 MHz LO).
